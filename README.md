@@ -3,6 +3,13 @@ PRM
 
 PRM (Package Repository Manager) is an Operating System independent Package Repository tool. It allows you to quickly build Debian and Yum Package Repositories. PRM supports Repository syncing to DreamObjects
 
+Build local version
+===
+
+git clone https://github.com/kiranos/prm.git
+gem build prm.gemspec
+gem install prm-0.2.14.gem
+
 Why Use PRM
 ===
 
